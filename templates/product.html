@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% block title %} product{% endblock title %}
+{% block body %}   
+ <div> 
+    <div class="container px-4 py-3" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Our products</h2>
+    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://i-h2.pinimg.com/236x/05/4f/91/054f91bb773338e2b6f9a16c62c51994.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Black Watch Collection</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="https://i-h2.pinimg.com/236x/05/4f/91/054f91bb773338e2b6f9a16c62c51994.jpg" alt="" width="32" height="32" class="rounded-circle border border-white">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="https://i-h2.pinimg.com/236x/05/4f/91/054f91bb773338e2b6f9a16c62c51994.jpg"></use></svg>
+                    <small>Watches</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                    <small>3d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://images.unsplash.com/flagged/photo-1565241651368-35437ca5563f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"> Gentlemen Wears</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="https://images.unsplash.com/flagged/photo-1565241651368-35437ca5563f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>Suits</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                    <small>4d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://blog.hubspot.com/hubfs/black%20hat.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Classic Hat Collection</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="https://media.wired.com/photos/59271004cefba457b079c01e/master/pass/white-gray-black-hat-hacker-158788611.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>Hats</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                    <small>5d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ </div>
+    {% endblock body %}

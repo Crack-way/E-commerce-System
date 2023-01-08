@@ -26,4 +26,7 @@ def about(request):
 def services(request):
     return render(request,"services.html")
 
+def product(request):
+    return render(request,'product.html')
+
 
